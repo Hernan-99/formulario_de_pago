@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-sombra {
+  box-shadow: 0px 2px 5px 3px rgba(0, 0, 0, 0.1);
+}
+
+/*FUENTE HEADER CARD*/
+.encabezado-carta {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #666666;
+  padding: 30px;
+}
+
+/*ESTILOS PARA LOS TITULOS(PAYPAL / CREDIT CARD)*/
+.paypal-visa h3 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 700;
+  color: #666666;
+  font-size: 16px;
+}
+
+/*ESTILOS PARA LOS PARRAFOS*/
+.paypal-visa p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  color: #a3a3a3;
+  font-size: 12px;
+}
+
+/*ESTILOS PARA LOS TEXTOS DE LOS INPUTS*/
+.fuente {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  color: #666666;
+  font-size: 14px;
+}
+
+.fuente option {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  color: #a3a3a3;
+  font-size: 14px;
+}
+
+/*TAMAÑO DE LOS ICONOS DE FONT AWESOME*/
+.paypal,
+.visa {
+  font-size: 30px;
+}
+
+/*COLORES DE LOS ICONOS DE FONT AWESOME*/
+.paypal {
+  color: #666666;
+}
+.visa {
+  color: #516bb1;
+}
+
+/*ESTILOS PARA LOS BOTONES*/
+.hs-boton1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  border: 2px solid #a3a3a3a3;
+  font-size: 16px;
+}
+
+.hs-boton2 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  background: #007bff7a;
+  border: none;
+}
+.hs-boton:hover {
+  background: #007bff;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!--***************CDN BOOTSTRAP***********************-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+<!--***************CDN BOOTSTRAP***********************-->
+
+<!--***************ESTILOS PROPIOS***********************-->
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<!--***************ESTILOS PROPIOS***********************-->
+
+<!--***************FONTS***********************-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+<!--***************FONTS***********************-->
+
+<!--***************SCRIPT DE FONT AWESOME***********************-->
+    <script
+      src="https://kit.fontawesome.com/1cfac9386a.js"
+      crossorigin="anonymous"
+    ></script>
+<!--***************SCRIPT DE FONT AWESOME***********************-->
+    <title>Payment method</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row mt-3 mb-3">
+        <div class="col-8 m-auto">
+          <div class="card card-sombra">
+            <div class="card-header encabezado-carta mb-3">
+              <h3 class="">3. Payment method</h3>
+            </div>
+            <div class="card-body">
+              <!--****************METODOS DE PAGO**************************-->
+              <form action="" id="formulario">
+                <div class="form-check input-group d-flex justify-content-between mb-3  paypal-visa">
+                  <label for="PayPal">
+                    <input
+                    type="radio"
+                    name="pago"
+                    id="PayPal"
+                    class="form-check-input"
+                    required
+                    />
+                    <h3>PayPal</h3>
+                  </label>
+                  <span class="input-group-addon">
+                    <i class="fab fa-cc-paypal paypal" id="PayPal"></i>
+                  </span>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nisi, earum assumenda ducimus 
+                      deserunt iusto delectus, laboriosam neque quisquam, enim labore consequatur? Error officiis,
+                      voluptatibus provident corrupti officia nisi cum laudantium repellendus asperiores quo 
+                      eveniet repellat illum reprehenderit exercitationem temporibus recusandae obcaecati cumque 
+                      laborum modi soluta unde praesentium non repudiandae.
+                    </p>
+                  </div>
+                  <div class="form-check input-group d-flex justify-content-between mb-5 paypal-visa">
+                    <label for="Credit Card">
+                      <input
+                      type="radio"
+                      name="pago"
+                      id="Credit Card"
+                      class="form-check-input"
+                      required
+                      />
+                      <h3>Credit Card</h3>
+                    </label>
+                    <span class="input-group-addon">
+                      <i class="fab fa-cc-visa visa" id="Credit Card"></i>
+                    </span>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem nisi, earum assumenda 
+                        ducimus deserunt iusto delectus, laboriosam neque quisquam, enim labore consequatur? 
+                        Error officiis, voluptatibus provident corrupti officia nisi cum laudantium repellendus 
+                        asperiores quo eveniet repellat illum reprehenderit exercitationem temporibus recusandae 
+                        obcaecati cumque laborum modi soluta unde praesentium non repudiandae.
+                      </p>
+                    </div>
+              </form>
+              <!--****************METODOS DE PAGO**************************-->
+
+
+
+              <!--****************CARACTERISTICAS DEL PAGO**************************-->
+              <div class="form-group row">
+                  <div class="col-12 mb-3">
+                    <input
+                      type="tel"
+                      placeholder="4154 **** **** 4562"
+                      class="form-control fuente py-2"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-md-3 col-12 mb-3">
+                    <!--input type="text" placeholder="MM" class="form-control" /-->
+                    <select name="meses" id="meses" class="form-control fuente py-2">
+                      <option value="MM">MM</option>
+                      <option value="Junary">Junary</option>
+                      <option value="February">February</option>
+                      <option value="March">March</option>
+                      <option value="April">April</option>
+                      <option value="May">May</option>
+                      <option value="June">June</option>
+                      <option value="July">July</option>
+                      <option value="August">August</option>
+                      <option value="September">September</option>
+                      <option value="October">October</option>
+                      <option value="November">November</option>
+                      <option value="Dicember">Dicember</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-3 col-12 mb-3">
+                    <!--input type="text" placeholder="YY" class="form-control" /-->
+                    <select name="años" id="años" class="form-control fuente py-2">
+                      <option value="YY">YY</option>
+                      <option value="2021">2021</option>
+                      <option value="2022">2022</option>
+                      <option value="2023">2023</option>
+                      <option value="2024">2024</option>
+                      <option value="2025">2025</option>
+                      <option value="2026">2026</option>
+                      <option value="2027">2027</option>
+                      <option value="2028">2028</option>
+                      <option value="2029">2029</option>
+                      <option value="2030">2030</option>
+                      <option value="2031">2031</option>
+                      <option value="2032">2032</option>
+                    </select>
+                  </div>
+
+                  <div class="col-md-6 col-12 mb-3">
+                    <input
+                      type="text"
+                      placeholder="CVV/CVC"
+                      class="form-control fuente py-2"
+                      required
+                    />
+                  </div>
+
+                  <div class="col-12 mb-5">
+                    <input
+                      type="text"
+                      placeholder="CARDHOLDER NAME"
+                      class="form-control fuente py-2"
+                      required
+                    />
+                  </div>
+              </div>
+              <!--****************CARACTERISTICAS DEL PAGO**************************-->
+
+
+              <!--****************BOTONES BACK Y CONTINUE**************************-->
+              <div
+                  class="form-group d-flex justify-content-between flex-column flex-md-row"
+                >
+                  <a
+                    href="#"
+                    class="hs-boton1 btn btn-outline-secondary pl-5 pr-5 btn-lg mb-2"
+                    >Back</a
+                  >
+                  <a href="#" class="hs-boton2 btn btn-primary pl-4 pr-4 btn-lg mb-2"
+                    >Continue</a
+                  >
+              </div>
+              <!--****************BOTONES BACK Y CONTINUE**************************-->
+
+
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="js/validacion.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
